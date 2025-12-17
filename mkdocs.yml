@@ -1,0 +1,19 @@
+site_name: RewardsX
+site_url: https://docs.rewardsx.net/
+copyright: Copyright &copy; 2025 RewardsX
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: orange
+      accent: orange
+
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: orange
+      accent: orange
