@@ -33,7 +33,7 @@ plugins/RewardADs/
 
 Controls plugin behavior, and general options.
 
-```yml
+```yaml
 platform_id: XXXXXXX # You can find id here --> https://dash.rewardsx.net
 debug: false  #Enable/Disable debug messages
 proxy: false  # ENABLE THIS ONLY IF YOU USE REWARDADS ALSO IN BUNGEECORD
@@ -44,7 +44,7 @@ proxy: false  # ENABLE THIS ONLY IF YOU USE REWARDADS ALSO IN BUNGEECORD
 
 All player-facing messages with full PlaceholderAPI support.
 
-```yml
+```yaml
 prefix: '&7[&6R&7] '
 onlyConsole: Hey, you are only a console, so you can't execute this command!
 reload: '&6RewardADs &areloaded successfully'
@@ -97,7 +97,7 @@ topBuysNoData: '&9#%index% &r________ &7| &rNo data'
 
 **Core file** defining all available rewards players can purchase with ads.
 
-```yml
+```yaml
 !!str <REWARD_ID>:
 commands:
 - "give %player% pumpkin 100"

@@ -2,6 +2,8 @@
 site/
 build/
 
+!CNAME
+
 # Python
 __pycache__/
 *.py[cod]
