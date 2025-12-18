@@ -29,7 +29,7 @@ Once verified, download the SDK and follow our [integration guides](/rewardads/i
 
 [**Create Platform →**](https://dash.rewardsx.net/newplatform)
 
-*Questions? Check our [RewardADs documentation](https://docs.rewardsx.net/rewardads/) or contact [support@rewardsx.net](mailto:support@rewardsx.net)*
+*Questions? Check our [RewardADs documentation](https://docs.rewardsx.net/) or contact [support@rewardsx.net](mailto:support@rewardsx.net)*
 
 ---
 
