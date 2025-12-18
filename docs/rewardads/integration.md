@@ -1,11 +1,13 @@
-# RewardADs Integration Guide
+# Integration
+
+# Getting Started
 
 Monetize your platform in a few easy steps with RewardADs.
 
 ## Requirements
 
 1. Your platform must be set up and verified at [dash.rewardsx.net](https://dash.rewardsx.net).  
-   If you haven't completed this yet, follow the steps in our [Getting Started](https://docs.rewardsx.net/getting-started/) guide.
+   If you haven't completed this yet, follow the steps in our [Getting Started](/rewardads/website/getting-started/) guide.
 
 ## Configuration Parameters
 
@@ -31,7 +33,7 @@ Install plugins in `/plugins/` directory (RewardADs Addon goes in `/plugins/Rewa
 ### 1. Rewards Setup
 
 Configure rewards in `rewards.yml`:
-```
+```yaml
 !!str <REWARD_ID>:
 commands:
 - "give %player% pumpkin 100"
@@ -67,13 +69,13 @@ Customize plugin messages in `messages.yml`:
 ### 1. Load SDK
 
 Add the RewardADs SDK script to your website's `<head>` section:
-```
+```html
 <script src="https://sdk.rewardsx.net/rewardads.js"></script>
 ```
 ### 2. Initialize SDK
 
 Initialize the SDK in your website's JavaScript code:
-```
+```javascript
 RewardADsSDK.init('PLATFORM_ID', 'PLATFORM_SECRET');
 ```
 
@@ -88,7 +90,7 @@ Replace `PLATFORM_ID` with your unique platform identifier and `PLATFORM_SECRET`
 ### 1. Checkout Button
 
 Assign checkout functionality to an existing button:
-```
+```javascript
 const button = document.getElementById('button-checkout');
 RewardADsSDK.buttonCheckout(button, {
 rewardId: '<REWARD_ID>',
@@ -108,7 +110,7 @@ console.error('Purchase failed:', error);
 
 Render a specific reward in a container:
 
-```
+```javascript
 const container = document.getElementById('reward-container');
 RewardADsSDK.renderReward(container, {
 rewardId: '<REWARD_ID>',
@@ -127,7 +129,7 @@ console.error('Purchase failed:', error);
 
 Display all rewards for your platform:
 
-```
+```javascript
 const container = document.getElementById('rewards-container');
 RewardADsSDK.renderRewards(container, {
 buyText: 'Buy',
@@ -145,7 +147,7 @@ console.error('Purchase failed:', error);
 ### 4. Programmatic Checkout
 
 Trigger checkout programmatically within any function:
-```
+```javascript
 RewardADsSDK.renderCheckout({
 rewardId: '<REWARD_ID>',
 buyText: 'Buy',
