@@ -103,5 +103,5 @@ commands:
 - "give %player% pumpkin 100"
 - "broadcast %player% received 100 pumpkins!"
 server: "all"
-```
+``` 
 
