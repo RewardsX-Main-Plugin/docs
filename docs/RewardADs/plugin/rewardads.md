@@ -5,7 +5,7 @@ Monetize your platform in a few easy steps with RewardADs.
 ## Requirements
 
 1. Your platform must be set up and verified at [dash.rewardsx.net](https://dash.rewardsx.net).  
-   If you haven't completed this yet, follow the steps in our [Getting Started](/rewardads/website/getting-started/) guide.
+   If you haven't completed this yet, follow the steps in our [Getting Started](../website/getting-started.md/) guide.
 
 This guide explains all configuration files for the **RewardADs** plugin used with **RewardsX** monetization system.
 

@@ -15,7 +15,6 @@ Monetize your Minecraft servers and websites through rewarded advertisements. Pl
 Reward system integration for Discord communities with cross-platform support for Minecraft servers.
 
 **Platforms:** Discord • Minecraft  
-*Coming soon*
 
 ## Contact & Legal
 

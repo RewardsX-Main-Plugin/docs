@@ -18,7 +18,7 @@ This security process is straightforward, just plug the SDK into your platform a
 
 ## Step 3: Integrate & Launch
 
-Once verified, download the SDK and follow our [integration guides](/rewardads/integration) to implement ads in your application. Most developers complete integration within a few minutes.
+Once verified, download the SDK and follow our [integration guides](../integration.md) to implement ads in your application. Most developers complete integration within a few minutes.
 
 ### Popular Integration Options:
 
